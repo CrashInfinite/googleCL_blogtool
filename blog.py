@@ -9,8 +9,8 @@ os.system("echo -------------------------------------------")
 os.system("echo - Welcome $USER, please choose an option? -")
 os.system("echo -------------------------------------------")
 
-os.system("echo 1 - Create a post ")
-os.system("echo 2 - List events ")
+os.system("echo 1 - Create a blog post ")
+os.system("echo 2 - List calendar events ")
 os.system("echo 3 - Exit ")
 
 option = input()
