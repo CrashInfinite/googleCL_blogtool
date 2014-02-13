@@ -24,7 +24,7 @@ if option == "1":
 elif option == "2":
 	os.system('google calendar list')
 	res = input("Press enter to exit")
-	option = 3
+	os.system("clear")
 	
 elif option == "3":
 	os.system("clear")
