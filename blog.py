@@ -3,11 +3,10 @@
 import os
 import sys
 
-os.system("i3-msg floating enable")
 os.system("clear")
 
 os.system("echo -------------------------------------------")
-os.system("echo - Welcome Shaun, please choose an option? -")
+os.system("echo - Welcome $USER, please choose an option? -")
 os.system("echo -------------------------------------------")
 
 os.system("echo 1 - Create a post ")
