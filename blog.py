@@ -13,11 +13,11 @@ os.system("echo -------------------------------------------")
 os.system("echo 1 - Create a post ")
 os.system("echo 2 - Exit ")
 
-option = raw_input()
+option = input()
 
 if option == "1":
-	title = raw_input("Enter the Title: ")
-	body = raw_input("Body: ")
+	title = input("Enter the Title: ")
+	body = input("Body: ")
 
 	os.system('google blogger post --title "' + title + '" "' + body + '"')
 
